@@ -48,7 +48,7 @@ V konfiguračním souboru lze upravit tyto parametry:
 
 ## 📊 Funkční přehled zobrazovaných dat
 
-Systém monitoruje 5 klíčových parametrů s dynamickým barvoslepostí uzpůsobeným logikou.
+Systém monitoruje 5 klíčových parametrů s dynamickým uzpůsobením barev.
 
 ### 1. Teplota motorového oleje (`OLEJ`)
 | Barva | Stav | Význam |
