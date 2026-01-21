@@ -1,6 +1,6 @@
 # 🏎️ Monitor telemetrie motoru (OBD II)
 
-Monitor pro zobrazování skrytých údajů motoru v reálném čase pomocí ESP32 a OBD II diagnostiky. Projekt je zaměřen na přehlednost pro řidiče (periferní vidění) a sledování inteligentního dobíjení.
+Monitor pro zobrazování skrytých údajů motoru v reálném čase pomocí ESP32 a OBD II diagnostiky. Projekt je zaměřen na přehlednost pro řidiče (periferní vidění).
 
 ---
 
