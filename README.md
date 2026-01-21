@@ -2,7 +2,7 @@
 
 Monitor pro zobrazování skrytých údajů motoru v reálném čase pomocí ESP32 a OBD II diagnostiky. Projekt je zaměřen na přehlednost pro řidiče (periferní vidění) a sledování inteligentního dobíjení.
 
-[![Ukázka ovládání a webserveru](https://img.youtube.com/vi/dRTjhbWR-sU/0.jpg)](https://www.youtube.com/watch?v=dRTjhbWR-sU)
+[![Ukázka připojení monitoru](https://img.youtube.com/vi/dRTjhbWR-sU/0.jpg)](https://www.youtube.com/watch?v=dRTjhbWR-sU)
 
 ---
 
