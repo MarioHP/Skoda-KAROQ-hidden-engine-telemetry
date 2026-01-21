@@ -21,6 +21,7 @@ Výchozí nastavení v **settings.h**
 - BT_NAME = "V-LINK"; - název BT modulu Vgate, který je vidět při hledání BT zařízení v telefonu
 - BACKLIGHT_BRIGHTNESS = BRIGHTNESS_LOW; – jas spořiče displeje (25 %)
 
+---
 
 ## **Displej** - funkční přehled HET systému
 
@@ -42,7 +43,7 @@ Možnost zobrazit následující položky:
 
 > Ukazuje stav chladicího okruhu.
 
-** Logika barev:**
+**Logika barev:**
 
 * Modrá:  (Studená voda).
 * Oranžová: – (Zahřívání).
