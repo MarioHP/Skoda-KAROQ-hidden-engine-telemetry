@@ -74,10 +74,7 @@ void setup() {
   }
   
   tft.fillScreen(TFT_BLACK);
-
-  // Vykreslení statických popisků 
   drawStaticLabels();
-
   lastActivity = millis(); 
 }
 
@@ -294,6 +291,7 @@ void updateDisplay(int oil, int coolant, int speed, float volt, float km) {
   }
 
 }
+
 
 
 
