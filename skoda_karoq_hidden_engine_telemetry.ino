@@ -145,10 +145,10 @@ void setupELM327() {
   SerialBT.print("ATSP6\r");   delay(50); 
   SerialBT.print("ATSH7E0\r"); delay(50); 
   
-    SerialBT.print("01001\r");
+  SerialBT.print("01001\r");
   delay(500);
   
-    while(SerialBT.available()) SerialBT.read();
+  while(SerialBT.available()) SerialBT.read();
 }
 
 
