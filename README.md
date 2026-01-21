@@ -19,9 +19,10 @@ Výchozí nastavení v **settings.h**
 ### **Displej**
 
 Možnost zobrazit tyto položky, ale prakticky by mělo jít vše, co zobrazí Car scanner:
-Teplota oleje
-Teplota kapaliny
-Napětí
-Rychlost vozidla (reálná)
-Celkový stav ujetých kilometrů (odometr)
+
+- Teplota oleje
+- Teplota kapaliny
+- Napětí
+- Rychlost vozidla (reálná)
+- Celkový stav ujetých kilometrů (odometr)
 
