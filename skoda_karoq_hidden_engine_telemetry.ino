@@ -239,7 +239,7 @@ void updateDisplay(int oil, int coolant, int speed, float volt, float km) {
   // tft.drawString(String(volt, 1) + " V", xPos, 80, 4);
 
 
- // ===== 3. ŘÁDEK: RYCHLOST (Minimalistický režim s oranžovými zónami) =====
+ // ===== 3. ŘÁDEK: RYCHLOST =====
   tft.setTextPadding(standardPdd);
   static uint16_t lastSpeedColor = TFT_SKODAGREY; 
 
@@ -285,4 +285,5 @@ void updateDisplay(int oil, int coolant, int speed, float volt, float km) {
   }
 
 }
+
 
