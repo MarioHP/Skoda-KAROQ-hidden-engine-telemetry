@@ -21,13 +21,14 @@ Výchozí nastavení v **settings.h**
 - BT_NAME = "V-LINK"; - název BT modulu Vgate, který je vidět při hledání BT zařízení v telefonu
 - BACKLIGHT_BRIGHTNESS = BRIGHTNESS_LOW; – jas spořiče displeje (25 %)
 
-### **Displej** Funkční přehled HET systému
+
+### **Displej** - Funkční přehled HET systému
 
 Možnost zobrazit následující položky:
 
-- 1. Teplota motorového oleje (OLEJ)
+- **1. Teplota motorového oleje (OLEJ)**
 
-* Logika barev:
+**Logika barev:**
 
 * Modrá:  (Studený motor, nepoužívat plný výkon).
 * Oranžová: – (Zahřívání, motor se blíží k provozní teplotě).
@@ -36,11 +37,11 @@ Možnost zobrazit následující položky:
 * Alarm (Červená na bílé):  (Kritické přehřátí, doporučeno zvolnit).
 
 
-- 2. Teplota chladicí kapaliny (KAPALINA)
+- **2. Teplota chladicí kapaliny (KAPALINA)**
 
-Ukazuje stav chladicího okruhu.
+> Ukazuje stav chladicího okruhu.
 
-* Logika barev:
+** Logika barev:**
 
 * Modrá:  (Studená voda).
 * Oranžová: – (Zahřívání).
@@ -48,37 +49,34 @@ Ukazuje stav chladicího okruhu.
 * Červená:  (Možné přetížení chladicího systému).
 
 
-- 3. Reálná rychlost (RYCHLOST)
+- **3. Reálná rychlost (RYCHLOST)**
 
-Klíčový parametr s implementovanou chyytrou hysterezí (2 km/h), aby barvy neproblikávaly.
+> Přesnější než tachometr (neřeší odchylku výrobce). Klíčový parametr s implementovanou chyytrou hysterezí (2 km/h), aby barvy neproblikávaly.
 
-Přesnější než tachometr (neřeší odchylku výrobce)
-
-* Logika barev (Zóny):
+**Logika barev (Zóny):**
 
 * Šedá: – (Normální rychlost).
+  
 * Oranžová: 
 – ZÓNA 54-60 (obec limit)
 – ZÓNA 94-100 (okreska limit)
 – ZÓNA 134-140 (dálnice limit)
 
 
-- 4. Palubní napětí (NAPETI)
+- **4. Palubní napětí (NAPETI)**
 
-Důležité u Karoqu kvůli inteligentnímu dobíjení (rekuperaci).
+> Napětí na OBD zásuvce. Důležité kvůli inteligentnímu dobíjení (rekuperaci).
 
-* Napětí na OBD zásuvce
+**Logika barev:**
 
-* Logika barev:
 * Červená:  – (Baterie se vybíjí, motor vypnutý nebo slabý alternátor).
 * Zelená (Lime): – (Standardní dobíjení/provoz).
 * Zlatá (Gold):  - (Rekuperace – auto intenzivně brzdí motorem a dobíjí baterii "zadarmo").
 
 
+- **5. Ujetá vzdálenost (UJETO)**
 
-- 5. Ujetá vzdálenost (UJETO)
-
-Zobrazuje se s přesností na jedno desetinné místo (např. 12.5 km).
+Zobrazuje se s přesností na jedno desetinné místo (např. 12469.5 km).
 
 ---
 
