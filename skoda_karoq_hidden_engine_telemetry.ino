@@ -266,9 +266,9 @@ void updateDisplay(int oil, int coolant, int speed, float volt, float km) {
                         (speed >= 132 && speed <= 142);
 
     if (lastSpeedColor == orange && inHysteresis) {
-      lastSpeedColor = orange; // Držíme oranžovou v ochranném pásmu
+      lastSpeedColor = orange; 
     } else {
-      lastSpeedColor = grey;   // Jinak přepneme na šedou
+      lastSpeedColor = grey; 
     }
   }
 
@@ -285,3 +285,4 @@ void updateDisplay(int oil, int coolant, int speed, float volt, float km) {
   }
 
 }
+
