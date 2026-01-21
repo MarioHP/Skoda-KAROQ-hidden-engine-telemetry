@@ -7,7 +7,7 @@ Monitor pro zobrazování skrytých údajů motoru v reálném čase pomocí ESP
 ## 🚗 Podporované motory
 Seznam ověřených motorizací, na kterých byl monitor úspěšně testován. Seznam budu postupně doplňovat na základě zpětné vazby.
 
-* **1.5 TSI Evo 2** (kód motoru: `DXD`)
+* **1.5 TSI (110 kW) Evo 2** (kód motoru: `DXD`)
 * *Další budou doplněny...*
 
 > [!TIP]
