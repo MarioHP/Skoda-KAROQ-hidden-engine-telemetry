@@ -1,10 +1,10 @@
 #ifndef SETTINGS_H
 #define SETTINGS_H
 
-// Definice názvu VGate
+// Definice názvu BT modulu
 const char* BT_NAME = "V-LINK";
 
-// Definice MAC adresy VGate
+// Definice MAC adresy BT modulu
 uint8_t BT_MAC[6] = {0x00, 0x1D, 0x43, 0x12, 0x34, 0x56};
 
 // --- Definice barev ---
