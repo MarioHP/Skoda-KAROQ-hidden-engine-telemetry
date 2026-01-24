@@ -54,6 +54,7 @@ void setup() {
     tft.drawString("POKUS: " + String(pokus), 120, 90, 4);
 
     if (SerialBT.connect(BT_NAME)) {
+    // if (SerialBT.connect(BT_MAC)) {    
       connected = true;
       tft.fillScreen(TFT_BLACK);
       tft.setTextColor(TFT_LIMEGREEN);
@@ -284,3 +285,4 @@ void updateDisplay(int oil, int coolant, int speed, float volt, float km) {
   }
 
 }
+
